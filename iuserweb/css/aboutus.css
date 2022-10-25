@@ -26,12 +26,12 @@ li, a, button{
 }
 
 .header-content-parallax{
-    padding-top:200px;
-    padding-bottom:200px;
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
 .title{
-    font-size:50px;
+    font-size:30px;
     color:white;
     font-weight:lighter;
     cursor:default;
@@ -43,21 +43,21 @@ li, a, button{
 }
 
 .header1{
-    font-size:50px;
+    font-size:25px;
     color:aquamarine;
     cursor:default;
 }
 
 .paragraph_text{
     text-align:justify;
-    text-indent: 1in;
-    font-size:25px;
+    text-indent: 0.5in;
+    font-size:15px;
     width:100%;
 }
 
 .portrait{
-    height:250px;
-    width:250px;
+    height:200px;
+    width:200px;
 }
 
 span{
@@ -86,43 +86,78 @@ span{
     display:block;
 }
 
+.top-spacing{
+    margin-top:30px;
+}
+
+@media screen and (min-width: 450px){
+    .title{
+        font-size:40px;
+    }
+    .header-content-parallax{
+        padding-top:250px;
+        padding-bottom:250px;
+    }
+    .header1{
+        font-size:45px;
+    }
+    .paragraph_text{
+        font-size:18px;
+        text-indent: 0.5in;
+    }
+    .portrait{
+        width:250px;
+        height:250px;
+    }
+    .top-spacing{
+        margin-top:50px;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .title{
+        font-size:55px;
+    }
+    .header-content-parallax{
+        padding-top:275px;
+        padding-bottom:275px;
+    }
+    .header1{
+        font-size:50px;
+    }
+    .paragraph_text{
+        font-size:25px;
+        text-indent: 1in;
+    }
+    .top-spacing{
+        margin-top:80px;
+    }
+}
+
 @media screen and (min-width: 768px){
     .title{
         font-size:55px;
     }
-    .line{
-        width:450px; 
-    }
-    .main-pic{
-        height:575px;
-    }
-    .grad{
-        height:575px;
-    }
-    
 }
 
 @media screen and (min-width: 992px){
     .title{
         font-size:60px;
     }
-    .line{
-        width:700px; 
-    }
     .main-pic{
         height:725px;
     }
     .grad{
         height:725px;
     }
+    .top-spacing{
+        margin-top:100px;
+    }
 }
 
 @media screen and (min-width: 1200px){
     .title{
         font-size:90px;
-    }
-    .line{
-        width:1000px;
     }
     .paragraph_text{
         width:80%;
