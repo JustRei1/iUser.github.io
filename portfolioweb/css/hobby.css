@@ -1,0 +1,106 @@
+li, a, button{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.hobbypg{
+  background-image: url("page2.jpg");
+  height:1720px;
+  background-size:cover;
+  width:100%;
+    
+}
+  
+.gap{
+  width:100px;
+}
+
+.hcon1{
+  height:491.5;
+  width:100%;
+  display:flex;
+  margin-top:250px;
+}
+  
+.hcon2{
+  height:491.5;
+  width:100%;
+  display:flex;
+  position:relative;
+  top:120px;
+}
+
+.hcon3{
+  height:491.5;
+  width:100%;
+  display:flex; 
+  position:relative;
+  top:250px;
+}
+
+.pianopic{
+  height:auto;
+  width:525px;
+  position:relative;
+}
+  
+.hobtag{
+  color:white;
+  background-color:rgba(130, 130, 130, 0.5);
+  font-size:35px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width:665px;
+  padding:60px;
+  text-align:center;
+  letter-spacing:15px;
+  position:relative;
+  top:150px;
+}
+
+.hobp{
+  color:white;
+  background-color:rgba(127, 108, 134, 0.5);
+  font-size:30px;
+  font-family:sans-serif;
+  padding:40px;
+  height:auto;
+  width:830px;
+  position:relative;
+  align-self:center;
+  text-indent:1in;
+}
+  
+.gaempic{
+  height:auto;
+  width:525px;
+  position:relative;
+}
+  
+.hobp2{
+  color:white;
+  background-color:rgba(69, 74, 94, 0.5);
+  font-size:30px;
+  font-family:sans-serif;
+  padding:40px;
+  width:823px;
+  align-self:center;
+  position:relative;
+  text-indent:1in;
+}
+  
+.hob3{
+  color:white;
+  background-color:rgba(136, 116, 97, 0.5);
+  font-size:30px;
+  font-family:sans-serif;
+  padding:40px;
+  height:auto;
+  width:830px;
+  position:relative;
+  align-self:center;
+  text-indent:1in;
+}
+  
